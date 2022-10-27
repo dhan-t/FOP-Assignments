@@ -73,3 +73,5 @@ public class App {
         System.out.println("The sum = " + sum6);
     }
 }
+
+//sir wag mo muna check lilinisin pa thzx
