@@ -9,10 +9,11 @@ public class Exercise {
         
 // PATTERN 1
         System.out.println("1. SUM OF PATTERN 1");
-            for (int row = 0; row < mdArray[0].length; row++) {
-                int sum1 = 0;
-                    for (int row1 = 0; row1 < mdArray.length; row1++) {
-                        sum1 += mdArray[row][row1];
+        
+        for (int row = 0; row < mdArray[0].length; row++) {
+            int sum1 = 0;
+                for (int row1 = 0; row1 < mdArray.length; row1++) {
+                    sum1 += mdArray[row][row1];
         }
             System.out.println("The sum of row 1 is: " + sum1);
         break;
@@ -26,7 +27,7 @@ public class Exercise {
         for (int row1 = 0; row1 < mdArray.length; row1++) {
           sum2 += mdArray[row1][0];
         }
-        System.out.println("Sum of Pattern : "+ sum2);
+            System.out.println("Sum of Pattern : "+ sum2);
 
 // PATTERN 3
         System.out.println("");
@@ -61,9 +62,9 @@ public class Exercise {
         System.out.println("5. SUM OF PATTERN 5");
         int sum5 = 0;
         
-            for( int i = 0; i<=mdArray.length; i++){
-                for (int j = 0; j <= mdArray.length; j++) {
-                    if ((i == 1 && j == 1) || (i == 2 && j == 2) || (i == 1 && j == 2) || (i == 2 && j == 1)){
+        for( int i = 0; i<=mdArray.length; i++){
+            for (int j = 0; j <= mdArray.length; j++) {
+                if ((i == 1 && j == 1) || (i == 2 && j == 2) || (i == 1 && j == 2) || (i == 2 && j == 1)){
                     sum5 += mdArray[i][j];
                 }
             }
